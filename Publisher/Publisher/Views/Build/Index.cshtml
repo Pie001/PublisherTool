@@ -1,0 +1,33 @@
+﻿@model Publisher.Models.BuildModel
+
+@section header_scripts {
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>ビルド</h1>
+            </hgroup>
+            <p>・リリースブランチをビルドし、仮本番に反映する</p>
+            <p>・個別ビルド、仮本番へのPublish機能をここで実装予定(バッチが整え次第着手予定)</p>
+        </div>
+    </section>
+}
+<h3>Build Admin</h3>
+<div>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary()
+        <fieldset>
+            <legend>登録フォーム</legend>
+            <div id="wait"></div>
+            <ol>
+                <li>
+                    @Html.Hidden("guid", ViewData.Model.Guid)
+                </li>
+            </ol>
+        </fieldset>
+    }
+</div>

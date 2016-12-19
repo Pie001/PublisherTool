@@ -1,0 +1,58 @@
+﻿@model Publisher.Models.PublishModel
+
+@section header_scripts {
+    @Scripts.Render("~/Content/js/publisher")
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>発行</h1>
+            </hgroup>
+            <p>・発行元→発行先へ資材をコピーする</p>
+        </div>
+    </section>
+}
+<h3>Publisher</h3>
+<div>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary()
+        <fieldset>
+            <legend>登録フォーム</legend>
+            <div id="wait"><img src="/images/pleasewait.gif"></div>
+            <ol>
+                <li>
+                    @Html.Hidden("guid", ViewData.Model.Guid)
+                    @Html.LabelFor(m => m.ProductDivision)
+                    @Html.DropDownList("ProductDivision", Model.ProductList, new {
+                   onchange = "PublishProductSelect(this.options[this.selectedIndex].value)"
+               })
+                </li>
+                <li>
+                    <div id="serverRadioList" class="serverList">
+                    </div>
+                </li>
+                <li>
+                    @Html.LabelFor(m => m.FromPath)
+                    @Html.TextBoxFor(m => m.FromPath, new {
+                   @readonly = "readonly", 
+                   @class="PublishTextbox"
+               })
+                </li>
+                <li>
+                    @Html.LabelFor(m => m.ToPath)
+                    @Html.TextBoxFor(m => m.ToPath, new {
+                   @readonly = "readonly",
+                   @class = "PublishTextbox"
+               })
+                </li>
+            </ol>
+            <div id="pulishButton" style="display:block">
+                <input type="submit" id="submit" value="発行" onclick="OnClick()" />
+            </div>
+        </fieldset>
+    }
+</div>

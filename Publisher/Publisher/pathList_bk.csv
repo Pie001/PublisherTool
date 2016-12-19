@@ -1,0 +1,22 @@
+http_header,staging_env_path,production_env_path
+cp.conoha.jp,\\vmg001-prprd.fortune2.local\prprd-ConoHa_ControlPanel\,\\vmg001p.fortune2.local\ConoHa_ControlPanel\
+cp-d.rentalserver.jp,\\vmg001-prprd.fortune2.local\prprd-DSV_ControlPanel\,\\vmg001p.fortune2.local\DSV_ControlPanel\
+DSV.ProvisioningAPI,\\vmg001-prprd.fortune2.local\prprd-DSV_ProvisioningAPI\,\\vmg001p.fortune2.local\DSV_ProvisioningAPI\
+hosting-api.rentalserver.jp,\\vmg001-prprd.fortune2.local\prprd-HostingLocal_API\,\\vmg001p.fortune2.local\HostingLocal_API\
+cp-hv.myvps.jp,\\vmg001-prprd.fortune2.local\prprd-Hyper-V_ControlPanel\,\\vmg001p.fortune2.local\Hyper-V_ControlPanel\
+Hyper-V.ProvisioningAPI,\\vmg001-prprd.fortune2.local\prprd-Hyper-V_ProvisioningAPI\,\\vmg001p.fortune2.local\Hyper-V_ProvisioningAPI\
+cp.myvps.jp,\\vmg001-prprd.fortune2.local\prprd-KVM_ControlPanel\,\\vmg001p.fortune2.local\KVM_ControlPanel\
+kvm2.provisioningapi,\\vmg001-prprd.fortune2.local\prprd-KVM2_ProvisioningAPI\,\\vmg001p.fortune2.local\KVM2_ProvisioningAPI\
+reg-api.rentalserver.jp,\\vmg001-prprd.fortune2.local\prprd-Reg_API\, \\vmg001p.fortune2.local\Reg_API\
+my.rentalserver.jp,\\vmg001-prprd.fortune2.local\prprd-Rensaba_Navi\,\\vmg001p.fortune2.local\Rensaba_Navi\
+Rensaba.ServiceAPI,\\vmg001-prprd.fortune2.local\prprd-Rensaba_ServiceAPI\,\\vmg001p.fortune2.local\Rensaba_ServiceAPI\
+api.rentalserver.jp,\\vmg001-prprd.fortune2.local\prprd-SD_API\,\\vmg001p.fortune2.local\SD_API\
+cp.rentalserver.jp,\\vmg001-prprd.fortune2.local\prprd-SD_ControlPanel\,\\vmg001p.fortune2.local\SD_ControlPanel\
+snavi-api.rentalserver.jp,\\vmg001-prprd.fortune2.local\prprd-SNAVI_API\,\\vmg001p.fortune2.local\SNAVI_API\
+vps-api.rentalserver.jp,\\vmg001-prprd.fortune2.local\prprd-VZ_API\,\\vmg001p.fortune2.local\VZ_API\
+cp-vps.rentalserver.jp,\\vmg001-prprd.fortune2.local\prprd-VZ_ControlPanel\,\\vmg001p.fortune2.local\VZ_ControlPanel\
+democp-vps.rentalserver.jp,\\vmg001-prprd.fortune2.local\prprd-VZ_ControlPanel-Demo\,\\vmg001p.fortune2.local\VZ_ControlPanel-Demo\
+rd-api.rentalserver.jp,\\vmg001-prprd.fortune2.local\prprd-WD_API\,\\vmg001p.fortune2.local\WD_API\
+cp.win-rd.jp,\\vmg001-prprd.fortune2.local\prprd-WD_ControlPanel\,\\vmg001p.fortune2.local\WD_ControlPanel\
+rd8-api.rentalserver.jp,\\vmg001-prprd.fortune2.local\prprd-WD8_API\,\\vmg001p.fortune2.local\WD8_API\
+cp8.win-rd.jp,\\vmg001-prprd.fortune2.local\prprd-WD8_ControlPanel\,\\vmg001p.fortune2.local\WD8_ControlPanel\
