@@ -9,3 +9,4 @@
 
 ### 開発仕様
 - C# ASP.NET 4.7.1
+- MVC (Razor)
