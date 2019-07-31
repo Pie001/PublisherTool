@@ -1,5 +1,7 @@
 # Tools
 
+[한국어](README.md), [日本語](README.ja.md)
+
 ## Publisher
 
 ### 格納元から格納先へファイル移動を行うためのツール
